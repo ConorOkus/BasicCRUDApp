@@ -10,7 +10,7 @@
 	if (!empty($_POST['search'])) {
 	
 	// Establish a database connection
-	$dbc = mysqli_connect("igor.gold.ac.uk", "ma301co", "conor", "ma301co_myblog");
+	$dbc = mysqli_connect("", "", "", "");
 	
 	// The field is not set keep the user on the index page
 	if (!isset($_POST['search'])) {

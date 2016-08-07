@@ -12,7 +12,7 @@ print '<h2>Register</h2>';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	
 	// Database connection
-	$dbc = mysqli_connect("igor.gold.ac.uk", "ma301co", "conor", "ma301co_myblog");
+	$dbc = mysqli_connect("", "", "", "");
 	
 	// Form validation
 	if (!empty($_POST['username']) && !empty($_POST['email']) && !empty($_POST['password'])) {

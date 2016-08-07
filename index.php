@@ -16,7 +16,7 @@ print '<br /><form action="search_function.php" method="post">
 		</form>';
 
 // Database connection
-$dbc = mysqli_connect("igor.gold.ac.uk", "ma301co", "conor", "ma301co_myblog");
+$dbc = mysqli_connect("", "", "", "");
 
 // Define the query
 $query = 'SELECT * FROM blog_post ORDER BY date_entered DESC';

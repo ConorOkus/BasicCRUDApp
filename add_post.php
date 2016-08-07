@@ -18,7 +18,7 @@ if (!is_administrator()) {
 if ($_SERVER['REQUEST_METHOD'] == 'POST') { // Handle the form.
 	
 	// Database connection
-	$dbc = mysqli_connect("igor.gold.ac.uk", "ma301co", "conor", "ma301co_myblog");
+	$dbc = mysqli_connect("", "", "", "");
 	
 	// If the post is not empty add the post
 	if (!empty($_POST['title']) && !empty($_POST['entry'])) {

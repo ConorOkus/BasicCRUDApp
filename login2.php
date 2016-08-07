@@ -8,7 +8,7 @@
 	
 	session_start();
 	
-	$dbc = mysqli_connect("igor.gold.ac.uk", "ma301co", "conor", "ma301co_myblog");
+	$dbc = mysqli_connect("", "", "", "");
 	
 	// If the form is submiited
 	if (isset($_POST['username']) && isset($_POST['password'])) {

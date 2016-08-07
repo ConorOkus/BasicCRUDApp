@@ -11,7 +11,7 @@
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		
 	// Database connection
-	$dbc = mysqli_connect("igor.gold.ac.uk", "ma301co", "conor", "ma301co_myblog");
+	$dbc = mysqli_connect("", "", "", "");
 	
 	// Check if the form has been filled in
 	if (!empty($_POST['username']) && !empty($_POST['password'])) {

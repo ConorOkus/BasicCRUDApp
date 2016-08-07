@@ -15,7 +15,7 @@ if (!is_administrator()) {
 }
 	
 	// Database Connection
-	$dbc = mysqli_connect("igor.gold.ac.uk", "ma301co", "conor", "ma301co_myblog");
+	$dbc = mysqli_connect("", "", "", "");
 	
 	// Display the entry in a form
 	if (isset($_GET['id']) && is_numeric($_GET['id'])) {
