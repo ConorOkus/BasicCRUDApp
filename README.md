@@ -3,4 +3,5 @@ Once you have access to the site please click the log in link and log in using t
 
 # Blog Login
 Username: lecturer
+
 Password: test
